@@ -1,0 +1,261 @@
+
+:root{
+
+/* Colors */ 
+
+--logo-blue: #2476FF;
+
+}
+
+body{
+  margin: auto;
+}
+.container{
+  width: auto; 
+
+}
+
+.template-container{
+  height: 820px; 
+  background-image: linear-gradient(173.73deg, transparent 81%, transparent 81%, white 70% 66%, white), 
+  linear-gradient(105deg, transparent 0%, transparent 75%, #E1E7EF 68%, #E1E7EF 100%), 
+  linear-gradient(to top left, #edeff3, transparent 60%);
+  padding-left: 30px; 
+  padding-right: 30px; 
+}
+
+.template-container-2{
+  height: 700px; 
+  padding-left: 30px; 
+  padding-right: 30px; 
+}
+.template-container-3{
+  height: 700px; 
+  padding-left: 30px; 
+  padding-right: 30px; 
+  background-color: #F8FAFE;
+}
+
+.template-container-4{
+  height: 300px; 
+  padding-left: 30px; 
+  padding-right: 30px; 
+}
+
+.template-container-5{
+  height: 800px; 
+  padding-left: 30px; 
+  padding-right: 30px; 
+  background: #20335B;
+
+}
+.title-template{
+  text-align: center;
+}
+
+.buy-button{
+  color: white;
+  font-weight: 600;
+  height: 45px;
+  width: 110px;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: var(--logo-blue);
+}
+
+.play-button{
+  color: white;
+  height: 50px;
+  width: 140px;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: var(--logo-blue);
+}
+
+.intro-container{
+  columns: 2;
+  height: 600px;
+}
+
+.circle-logos{
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  align-items: center;
+}
+.circle-logos-2{
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.small-circle{
+  height: 75px;
+  width: 75px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0px 2px 15px -4px black;
+}
+
+.large-circle{
+  height: 90px;
+  width: 90px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0px 2px 15px -4px black;
+}
+
+.master-container{
+  margin-top: 100px;
+}
+
+.title{
+  font-size: 40px;
+  margin-top: 50px; 
+}
+
+.sub-title{
+  font-size: 25px;
+  margin: 17px; 
+  color: gray;
+}
+
+.table-container{
+  display: flex;
+  justify-content: center; 
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card-container{
+  height: 400px; 
+  width: 320px; 
+  border-style: transparent; 
+  color: black; 
+  box-shadow: 0px 2px 15px -4px black;
+  border-radius: 5px; 
+}
+
+.card-container:hover{
+  background-color: whitesmoke;
+}
+
+.card-img{ 
+  height: 70px; 
+  width: 70px; 
+}
+
+.sketch{
+  border-radius: 15px;   
+  border-style: transparent; 
+  color: white;  
+  background-color: #01C9A7; 
+  height: 25px;
+  width: 75px; 
+  margin-left: 20px;
+  border-style: none; 
+}
+
+.card-title{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.filler-text{
+  color: gray;
+  line-height: 30px;
+}
+
+.filler-text-2{
+  color: grey; 
+  margin: 0px;
+  font-size: 15px;
+}
+
+.learn-link{
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--logo-blue);
+}
+
+.item-container-3{
+  padding-left: 30px; 
+}
+
+.contact-card{
+  height: 700px; 
+  width: 550px; 
+  border-style: transparent; 
+  background-color: white;
+  box-shadow: 0px 2px 15px -4px black;
+  border-radius: 5px;
+}
+
+.contact-card-container{
+  margin-top: 50px;
+}
+
+.text-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.input-text{
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    border-style: solid;
+    border: 1px solid #E6E8F2;;
+    font-size: 15px;
+}
+
+.text-area{
+  resize: none;
+  height: 100px; 
+  width: 420px;
+  border-radius: 8px;
+  border-style: solid;
+  border: 1px solid #E6E8F2;;
+  font-size: 15px; 
+  color: grey; 
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.bottom-contact-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+
+.get-started-button{
+  display: flex;
+  justify-content: center;
+}
+
+.hiring-button{
+  border-radius: 10px;   
+  border-style: transparent; 
+  color: white;  
+  background-color: var(--logo-blue);
+  height: 15px;
+  width: 85px; 
+  margin-left: 10px;
+  border-style: none; 
+}
+
+.footer-container{
+  margin-top: 30px; 
+}
+
+
+
+

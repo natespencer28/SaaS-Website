@@ -1,0 +1,472 @@
+@media screen and (max-width: 768px){
+.main{
+    width: auto; 
+}
+.nav-list{
+    display: none;
+}
+
+.drop-down{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.hamburger{
+    display: block;
+}
+
+.dropdown {
+    max-width: 13em;
+    margin: 80px auto 0;
+    position: relative;
+    width: 100%;
+  }
+.drop-items{
+    list-style: none;
+    position: absolute;
+    top: 3.2em;
+    width: 100%;
+  }
+
+
+.intro-container{
+    display: flex; 
+    flex-direction: column;
+}
+
+.intro-container-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.intro-container-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+.intro-box{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.intro-box-2{
+    margin-top: 0px; 
+    text-align: center;
+    
+}
+
+.empower-flex {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+}
+
+.empower{
+    display: flex;
+    justify-content: center;
+}
+
+.circle-logos{
+    margin-left: 70px; 
+}
+
+.circle-logos-2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80px; 
+}
+
+.drive .small-circle {
+    margin-top: 70px;
+}
+.weave .large-circle {
+    margin-bottom: 200px;
+}
+.calendar .large-circle {
+    margin-top: 40px;
+}
+.table-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 8px;
+}
+
+.title-container{
+    margin-bottom: 15px;
+}
+
+.card-container {
+    height: 270px;
+    width: 300px;
+    border-style: transparent;
+    color: black;
+    box-shadow: 0px 2px 15px -4px black;
+    border-radius: 5px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.img-container {
+    margin-bottom: 10px;
+}
+
+.card-img {
+    height: 40px;
+    width: 40px;
+}
+
+.text-container{
+    margin-bottom: 5px; 
+}
+
+.right-side img{
+    width: 500px; 
+}
+
+.learn-container{
+    margin-top: 10px; 
+}
+
+.template-container-3{
+    margin-top: 300px;
+}
+
+.template-container-2{
+    height: 500px;
+}
+
+.template-container-4{
+    margin-top: 600px;
+}
+
+.bullet-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 100px;
+}
+
+.bullet-container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+
+.software-dev-img {
+    background-image: url(./banners/banner_two.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.software-play{
+    display: flex;
+    justify-content: center;
+    padding-top: 230px;
+}
+
+.woman-img {
+    position: absolute;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 131px;
+    width: 450px;
+}
+
+.woman-dots {
+    height: 400px;
+    margin-top: 226px;
+    margin-left: 70px;
+}
+
+.hub-spot-container{
+    
+    text-align: center;
+}
+
+.hub-spot-img{
+    margin-top: 50px;
+}
+
+.logos {
+    width: 100px;
+}
+
+.logo-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 160px;
+}
+
+.breakdown-info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.breakdown-info-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.template-container-5{
+    margin-top: 700px;
+    height: 1300px;
+}
+
+.promo-side{
+    text-align: center;
+    width: auto;
+}
+
+.explanation-side{
+    margin-top: 30px;
+}
+
+
+.monthly-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-container {
+    margin-left: 60px;
+    row-gap: 50px;
+}
+
+.contact-card-container {
+    margin-top: 20px;
+}
+
+.bottom-contact-container {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-info{
+    font-size: 25px;
+}
+
+.front-img{
+    margin-left: 69px;
+}
+
+.left-container {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    gap: 30px;
+}
+}
+
+
+
+
+@media screen and (max-width: 375px){
+
+.circle-logos{
+    margin-left: 0px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 0; 
+}
+
+.atlas .large-circle {
+    margin-right: 30px;
+    margin-left: 30px; 
+}
+
+.circle-logos-2 {
+    margin-left: 0px;
+    width: 315px; 
+}
+
+.template-container-3 {
+    margin-top: 900px;
+}
+
+.title-template{
+    margin-top: 130px;
+}
+
+.right-side img {
+    width: 300px;
+}
+
+.sub-title {
+    font-size: 22px;
+    margin: 17px;
+    color: gray;
+}
+
+.master-container{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.bullet-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5px;
+
+}
+
+.bullet-container-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 80px;
+}
+
+.item-container-3{
+    padding: 0px;
+}
+
+.software-play {
+    display: flex;
+    justify-content: center;
+    padding-top: 220px;
+}
+
+.woman-img {
+    position: absolute;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 45px;
+    width: 250px;
+}
+
+.woman-dots {
+    height: 400px;
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.hub-spot-img {
+    height: 45px;
+    margin-top: 55px;
+}
+
+.template-container-4 {
+    margin-top: 500px;
+}
+
+.logo-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 23px;
+}
+
+.monthly-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.explanation-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.template-container-5 {
+    margin-top: 1200px;
+    height: 1400px;
+}
+
+.contact-card{
+    width: 300px; 
+    height: 800px; 
+}
+.form{
+    padding: 25px; 
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.text-area{
+    width: 275px; 
+}
+
+.filler-text-2{
+    font-size: 12px;
+}
+
+.left-container {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-info-container:nth-child(2){
+    width: 58%;
+  }
+
+.title-info {
+    font-size: 20px;
+}
+
+.privacy-terms-container {
+    display: flex;
+    flex-direction: column;
+}
+.privacy-item{
+    font-size: 15px;
+}
+
+.icon-terms{
+    align-items: center; 
+}
+
+.fine-print{
+    font-size: 11px; 
+}
+
+.usa-icon{
+    margin-right: 10px;
+}
+
+
+}
+
+
+
